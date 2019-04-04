@@ -36,6 +36,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rndbutton"
             android:text="@string/mulai"
+            android:typeface="normal"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="510dp"
             tools:text="Mulai" />

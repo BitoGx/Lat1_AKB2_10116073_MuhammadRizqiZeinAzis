@@ -11,12 +11,11 @@ import android.widget.Button;
  *NIM   : 10116073
  *Nama  : Muhammad Rizqi Zein Azis
  *Kelas : IF-2 / AKB-2
- *CHANGELOG April 3, 2019
- * -  Start New Project
  *CHANGELOG April 4, 2019
  * - New Layout and Function
  * test
  */
+
 public class MainActivity extends AppCompatActivity
 {
     @Override
@@ -25,11 +24,11 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome_page);
         
-        ConfigureNextButton();
+        ConfigureFirstButton();
         
     }
     
-    private void ConfigureNextButton()
+    private void ConfigureFirstButton()
     {
         Button btn1 = (Button) findViewById(R.id.button2);
         btn1.setOnClickListener(new View.OnClickListener()

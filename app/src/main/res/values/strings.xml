@@ -15,4 +15,11 @@
     <string name="beli_keluarga_disini">Beli Keluarga Disini</string>
     <string name="masuk">Masuk</string>
     <string name="belum_punya_kode_keluarga">Belum punya kode keluarga?</string>
+    <string name="nama_panggilan_kamu">Nama Panggilan Kamu</string>
+    <string name="contoh_budi">Contoh : Budi</string>
+    <string name="umur_kamu">Umur Kamu</string>
+    <string name="contoh_12">Contoh : 12</string>
+    <string name="selanjutnya">Selanjutnya</string>
+    <string name="ok">Ok</string>
+    <string name="beres_sekarang_kamu">Beres! Sekarang kamu</string>
 </resources>

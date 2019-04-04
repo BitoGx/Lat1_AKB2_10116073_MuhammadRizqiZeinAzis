@@ -16,6 +16,7 @@
         android:layout_marginTop="236dp"
         android:background="@drawable/rndbutton"
         android:text="@string/masuk"
+        android:typeface="normal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Masuk" />
@@ -154,6 +155,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rndbutton2"
             android:text="@string/beli_keluarga_disini"
+            android:typeface="normal"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="510dp"
             tools:text="Beli Keluarga Disini" />
