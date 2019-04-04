@@ -1,7 +1,10 @@
 package com.example.lat1_akb2_10116073_muhammadrizqizeinazis;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 /**
  *Created By
@@ -20,6 +23,23 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.welcome_page);
+        
+        ConfigureNextButton();
+        
     }
+    
+    private void ConfigureNextButton()
+    {
+        Button btn1 = (Button) findViewById(R.id.button2);
+        btn1.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                startActivity(new Intent(MainActivity.this, verifikasi.class ));
+            }
+        });
+    }
+    
 }
