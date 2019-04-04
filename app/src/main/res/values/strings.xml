@@ -4,4 +4,12 @@
     <string name="mengontrol_hp_anak">Mengontrol HP Anak</string>
     <string name="monitory_membantu_anda">Monitory Membantu Anda</string>
     <string name="mulai">Mulai</string>
+    <string name="kode_keluarga">Kode Keluarga</string>
+    <string name="ketikkan_kode_keluarga_yang_ayah_bunda_miliki_disini">Ketikkan kode keluarga yang Ayah Bunda miliki disini</string>
+    <string name="dengan_menekan_tombol_masuk_anda_menyetujui">Dengan menekan tombol masuk Anda menyetujui</string>
+    <string name="ketentuan_pengguna">Ketentuan Pengguna</string>
+    <string name="a1b2c3">A1B2C3</string>
+    <string name="kami">kami</string>
+    <string name="dan">dan</string>
+    <string name="kebijakan_data">Kebijakan Data</string>
 </resources>

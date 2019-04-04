@@ -4,7 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".verifikasi">
+    tools:context=".Verifikasi">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/rndbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Masuk" />
 
     <TextView
         android:id="@+id/textView3"
@@ -13,7 +25,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginLeft="44dp"
         android:layout_marginTop="40dp"
-        android:text="Kode Keluarga"
+        android:text="@string/kode_keluarga"
         android:textColor="#202020"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -28,7 +40,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginLeft="44dp"
         android:layout_marginTop="80dp"
-        android:text="Ketikkan kode keluarga yang Ayah Bunda miliki disini"
+        android:text="@string/ketikkan_kode_keluarga_yang_ayah_bunda_miliki_disini"
         android:textColor="#202020"
         app:fontFamily="@font/rubik_regular"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,19 +57,21 @@
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="@string/a1b2c3"
         android:textColor="#202020"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="wrap_content"
+        android:layout_width="278dp"
         android:layout_height="16dp"
         android:layout_marginStart="45dp"
         android:layout_marginLeft="45dp"
         android:layout_marginTop="201dp"
-        android:text="Dengan menekan tombol masuk Anda menyetujui"
+        android:text="@string/dengan_menekan_tombol_masuk_anda_menyetujui"
         android:textColor="#202020"
         android:textSize="12sp"
         app:fontFamily="@font/rubik_regular"
@@ -66,12 +80,12 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="wrap_content"
+        android:layout_width="23dp"
         android:layout_height="16dp"
-        android:layout_marginStart="172dp"
-        android:layout_marginLeft="172dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
         android:layout_marginTop="216dp"
-        android:text="dan"
+        android:text="@string/dan"
         android:textColor="#202020"
         android:textSize="12sp"
         app:fontFamily="@font/rubik_regular"
@@ -80,12 +94,12 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="wrap_content"
+        android:layout_width="28dp"
         android:layout_height="16dp"
-        android:layout_marginStart="286dp"
-        android:layout_marginLeft="286dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginLeft="292dp"
         android:layout_marginTop="216dp"
-        android:text="kami"
+        android:text="@string/kami"
         android:textColor="#202020"
         android:textSize="12sp"
         app:fontFamily="@font/rubik_regular"
@@ -94,12 +108,12 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
+        android:layout_width="128dp"
         android:layout_height="16dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginLeft="44dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
         android:layout_marginTop="216dp"
-        android:text="Ketentuan Pengguna"
+        android:text="@string/ketentuan_pengguna"
         android:textColor="#202020"
         android:textSize="12sp"
         android:textStyle="bold"
@@ -109,16 +123,23 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="wrap_content"
+        android:layout_width="91dp"
         android:layout_height="16dp"
-        android:layout_marginStart="196dp"
-        android:layout_marginLeft="196dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
         android:layout_marginTop="216dp"
-        android:text="Kebijakan Data"
+        android:text="@string/kebijakan_data"
         android:textColor="#202020"
         android:textSize="12sp"
         android:textStyle="bold"
         app:fontFamily="@font/rubik_regular"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="336dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="296dp"></LinearLayout>
 </android.support.constraint.ConstraintLayout>
