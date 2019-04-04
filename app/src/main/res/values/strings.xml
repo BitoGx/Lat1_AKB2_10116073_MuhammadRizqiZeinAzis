@@ -12,4 +12,7 @@
     <string name="kami">kami</string>
     <string name="dan">dan</string>
     <string name="kebijakan_data">Kebijakan Data</string>
+    <string name="beli_keluarga_disini">Beli Keluarga Disini</string>
+    <string name="masuk">Masuk</string>
+    <string name="belum_punya_kode_keluarga">Belum punya kode keluarga?</string>
 </resources>

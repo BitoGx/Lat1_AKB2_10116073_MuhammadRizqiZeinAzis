@@ -4,16 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f2f2f2"
     tools:context=".Verifikasi">
 
     <Button
         android:id="@+id/button"
         android:layout_width="318dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="240dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="236dp"
         android:background="@drawable/rndbutton"
+        android:text="@string/masuk"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Masuk" />
@@ -53,6 +55,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="140dp"
+        android:autofillHints=""
         android:background="@drawable/border"
         android:ems="10"
         android:gravity="center"
@@ -61,8 +64,7 @@
         android:textColor="#202020"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView5"
@@ -137,9 +139,36 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="344dp"
-        android:layout_height="336dp"
+        android:layout_width="360dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="412dp"
+        android:background="#f8f8f8"
+        android:gravity="center"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="296dp"></LinearLayout>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rndbutton2"
+            android:text="@string/beli_keluarga_disini"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="510dp"
+            tools:text="Beli Keluarga Disini" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="86dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="457dp"
+        android:text="@string/belum_punya_kode_keluarga"
+        app:fontFamily="@font/rubik_regular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
