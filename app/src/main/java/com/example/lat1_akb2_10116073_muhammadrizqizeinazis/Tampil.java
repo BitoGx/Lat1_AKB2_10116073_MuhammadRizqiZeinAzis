@@ -4,6 +4,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+/**
+ *Created By
+ *NIM   : 10116073
+ *Nama  : Muhammad Rizqi Zein Azis
+ *Kelas : IF-2 / AKB-2
+ *CHANGELOG April 4, 2019
+ * - All the Layout and Function
+ * -Except Validation for name in Tampil.java
+ */
+
 public class Tampil extends AppCompatActivity
 {
   

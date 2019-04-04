@@ -12,8 +12,19 @@ import android.widget.Button;
  *Nama  : Muhammad Rizqi Zein Azis
  *Kelas : IF-2 / AKB-2
  *CHANGELOG April 4, 2019
- * - New Layout and Function
- * test
+ * - All the Layout and Function
+ * - Except Validation for name in Tampil.java
+ * Detailed CHANGELOG
+ * CHANGELOG April 4, 2019 08.00
+ * - Membuat Halaman 1 ( Main Activity )
+ * CHANGELOG April 4, 2019 13.00
+ * - Membuat function pindah halaman
+ * - Membuat Halaman 2 ( Verifikasi )
+ * CHANGELOG April 4, 2019 15:00
+ * - Membuat Halaman 3 ( Tampil )
+ * CHANGELOG April 4, 2019 17:00
+ * - Membuat Halaman 4 ( Tampil )
+ * - Membuat Function Send Extra lewat Intent
  */
 
 public class MainActivity extends AppCompatActivity

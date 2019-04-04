@@ -13,8 +13,8 @@ import android.widget.EditText;
  *Nama  : Muhammad Rizqi Zein Azis
  *Kelas : IF-2 / AKB-2
  *CHANGELOG April 4, 2019
- * - New Layout and Function
- * test
+ * - All the Layout and Function
+ * -Except Validation for name in Tampil.java
  */
 
 public class Biodata extends AppCompatActivity

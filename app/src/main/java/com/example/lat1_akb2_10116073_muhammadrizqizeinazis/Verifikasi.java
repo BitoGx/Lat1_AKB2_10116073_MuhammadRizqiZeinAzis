@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+import android.text.Html;
 
 /**
  *Created By
@@ -12,8 +14,8 @@ import android.widget.Button;
  *Nama  : Muhammad Rizqi Zein Azis
  *Kelas : IF-2 / AKB-2
  *CHANGELOG April 4, 2019
- * - New Layout and Function
- * test
+ * - All the Layout and Function
+ * -Except Validation for name in Tampil.java
  */
 
 public class Verifikasi extends AppCompatActivity
@@ -23,6 +25,10 @@ public class Verifikasi extends AppCompatActivity
   {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_verifikasi);
+    
+    TextView textView = (TextView) findViewById(R.id.textView5);
+    String editedtext = "Dengan menekan tombol masuk berarti Anda menyetujui <b>Ketentuan Pengguna</b> dan <b>Kebijakan Data</b> kami";
+    textView.setText(Html.fromHtml(editedtext));
   
     ConfigureSecondButton();
   
